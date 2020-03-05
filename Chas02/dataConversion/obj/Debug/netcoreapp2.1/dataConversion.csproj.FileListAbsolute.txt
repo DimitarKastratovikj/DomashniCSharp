@@ -1,0 +1,11 @@
+C:\Users\dimitar.kastratovikj\Desktop\gitCSharp\DomashniCSharp\Chas02\dataConversion\bin\Debug\netcoreapp2.1\dataConversion.deps.json
+C:\Users\dimitar.kastratovikj\Desktop\gitCSharp\DomashniCSharp\Chas02\dataConversion\bin\Debug\netcoreapp2.1\dataConversion.runtimeconfig.json
+C:\Users\dimitar.kastratovikj\Desktop\gitCSharp\DomashniCSharp\Chas02\dataConversion\bin\Debug\netcoreapp2.1\dataConversion.runtimeconfig.dev.json
+C:\Users\dimitar.kastratovikj\Desktop\gitCSharp\DomashniCSharp\Chas02\dataConversion\bin\Debug\netcoreapp2.1\dataConversion.dll
+C:\Users\dimitar.kastratovikj\Desktop\gitCSharp\DomashniCSharp\Chas02\dataConversion\bin\Debug\netcoreapp2.1\dataConversion.pdb
+C:\Users\dimitar.kastratovikj\Desktop\gitCSharp\DomashniCSharp\Chas02\dataConversion\obj\Debug\netcoreapp2.1\dataConversion.csprojAssemblyReference.cache
+C:\Users\dimitar.kastratovikj\Desktop\gitCSharp\DomashniCSharp\Chas02\dataConversion\obj\Debug\netcoreapp2.1\dataConversion.csproj.CoreCompileInputs.cache
+C:\Users\dimitar.kastratovikj\Desktop\gitCSharp\DomashniCSharp\Chas02\dataConversion\obj\Debug\netcoreapp2.1\dataConversion.AssemblyInfoInputs.cache
+C:\Users\dimitar.kastratovikj\Desktop\gitCSharp\DomashniCSharp\Chas02\dataConversion\obj\Debug\netcoreapp2.1\dataConversion.AssemblyInfo.cs
+C:\Users\dimitar.kastratovikj\Desktop\gitCSharp\DomashniCSharp\Chas02\dataConversion\obj\Debug\netcoreapp2.1\dataConversion.dll
+C:\Users\dimitar.kastratovikj\Desktop\gitCSharp\DomashniCSharp\Chas02\dataConversion\obj\Debug\netcoreapp2.1\dataConversion.pdb

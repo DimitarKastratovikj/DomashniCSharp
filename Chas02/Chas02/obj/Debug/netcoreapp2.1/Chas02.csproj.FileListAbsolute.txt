@@ -1,0 +1,11 @@
+C:\Users\dimitar.kastratovikj\Desktop\gitCSharp\DomashniCSharp\Chas02\Chas02\bin\Debug\netcoreapp2.1\Chas02.deps.json
+C:\Users\dimitar.kastratovikj\Desktop\gitCSharp\DomashniCSharp\Chas02\Chas02\bin\Debug\netcoreapp2.1\Chas02.runtimeconfig.json
+C:\Users\dimitar.kastratovikj\Desktop\gitCSharp\DomashniCSharp\Chas02\Chas02\bin\Debug\netcoreapp2.1\Chas02.runtimeconfig.dev.json
+C:\Users\dimitar.kastratovikj\Desktop\gitCSharp\DomashniCSharp\Chas02\Chas02\bin\Debug\netcoreapp2.1\Chas02.dll
+C:\Users\dimitar.kastratovikj\Desktop\gitCSharp\DomashniCSharp\Chas02\Chas02\bin\Debug\netcoreapp2.1\Chas02.pdb
+C:\Users\dimitar.kastratovikj\Desktop\gitCSharp\DomashniCSharp\Chas02\Chas02\obj\Debug\netcoreapp2.1\Chas02.csprojAssemblyReference.cache
+C:\Users\dimitar.kastratovikj\Desktop\gitCSharp\DomashniCSharp\Chas02\Chas02\obj\Debug\netcoreapp2.1\Chas02.csproj.CoreCompileInputs.cache
+C:\Users\dimitar.kastratovikj\Desktop\gitCSharp\DomashniCSharp\Chas02\Chas02\obj\Debug\netcoreapp2.1\Chas02.AssemblyInfoInputs.cache
+C:\Users\dimitar.kastratovikj\Desktop\gitCSharp\DomashniCSharp\Chas02\Chas02\obj\Debug\netcoreapp2.1\Chas02.AssemblyInfo.cs
+C:\Users\dimitar.kastratovikj\Desktop\gitCSharp\DomashniCSharp\Chas02\Chas02\obj\Debug\netcoreapp2.1\Chas02.dll
+C:\Users\dimitar.kastratovikj\Desktop\gitCSharp\DomashniCSharp\Chas02\Chas02\obj\Debug\netcoreapp2.1\Chas02.pdb
