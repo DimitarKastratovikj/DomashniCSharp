@@ -32,7 +32,7 @@ namespace dataConversion
             int number2;
 
             bool reulst = int.TryParse(input, out number1);
-            if (reulst)
+            if (reulst) // ako e true .?
             {
                 number2 = 100 / number1;
                 Console.WriteLine(number2);
