@@ -6,9 +6,12 @@ namespace Chas02
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-            Console.WriteLine("Hello World!");
-            Console.WriteLine("Hello World!");
+            int number = 10;
+
+            number = 20;
+
+            asd
+
             Console.WriteLine("Hello World!");
 
         }
