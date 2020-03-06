@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dataConversion", "dataConve
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "odg7chas2", "odg7chas2\odg7chas2.csproj", "{357144EB-68A1-4B25-9B51-C35A31DBD6B7}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "domasna01", "..\..\c# opsto\C#\ConsoleApp3\domasna01\domasna01.csproj", "{9AE5A31A-9588-4D24-AD80-A48904387A4B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "domasna01", "..\domasna01\domasna01\domasna01.csproj", "{EC8D8C99-2CA3-44A1-97A1-3C463B77313E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,10 +29,10 @@ Global
 		{357144EB-68A1-4B25-9B51-C35A31DBD6B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{357144EB-68A1-4B25-9B51-C35A31DBD6B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{357144EB-68A1-4B25-9B51-C35A31DBD6B7}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9AE5A31A-9588-4D24-AD80-A48904387A4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9AE5A31A-9588-4D24-AD80-A48904387A4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9AE5A31A-9588-4D24-AD80-A48904387A4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9AE5A31A-9588-4D24-AD80-A48904387A4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC8D8C99-2CA3-44A1-97A1-3C463B77313E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC8D8C99-2CA3-44A1-97A1-3C463B77313E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC8D8C99-2CA3-44A1-97A1-3C463B77313E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC8D8C99-2CA3-44A1-97A1-3C463B77313E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,11 @@
+C:\Users\user\Desktop\DomashniCSharp\domasna01\domasna01\bin\Debug\netcoreapp3.1\domasna01.exe
+C:\Users\user\Desktop\DomashniCSharp\domasna01\domasna01\bin\Debug\netcoreapp3.1\domasna01.deps.json
+C:\Users\user\Desktop\DomashniCSharp\domasna01\domasna01\bin\Debug\netcoreapp3.1\domasna01.runtimeconfig.json
+C:\Users\user\Desktop\DomashniCSharp\domasna01\domasna01\bin\Debug\netcoreapp3.1\domasna01.runtimeconfig.dev.json
+C:\Users\user\Desktop\DomashniCSharp\domasna01\domasna01\bin\Debug\netcoreapp3.1\domasna01.dll
+C:\Users\user\Desktop\DomashniCSharp\domasna01\domasna01\bin\Debug\netcoreapp3.1\domasna01.pdb
+C:\Users\user\Desktop\DomashniCSharp\domasna01\domasna01\obj\Debug\netcoreapp3.1\domasna01.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\DomashniCSharp\domasna01\domasna01\obj\Debug\netcoreapp3.1\domasna01.AssemblyInfo.cs
+C:\Users\user\Desktop\DomashniCSharp\domasna01\domasna01\obj\Debug\netcoreapp3.1\domasna01.dll
+C:\Users\user\Desktop\DomashniCSharp\domasna01\domasna01\obj\Debug\netcoreapp3.1\domasna01.pdb
+C:\Users\user\Desktop\DomashniCSharp\domasna01\domasna01\obj\Debug\netcoreapp3.1\domasna01.csprojAssemblyReference.cache
