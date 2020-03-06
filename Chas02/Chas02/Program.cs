@@ -61,7 +61,7 @@ namespace Chas02
 
             //int.parse
             string input2 = "123";
-            int numbervalue =int.Parse( input2);
+            int numbervalue = int.Parse( input2);
 
 
             int val2 = Convert.ToInt32(input2);
