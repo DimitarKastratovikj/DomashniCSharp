@@ -1,0 +1,11 @@
+C:\Users\user\Desktop\DomashniCSharp\Chas02\vezbiidomasno02\bin\Debug\netcoreapp3.1\vezbiidomasno02.exe
+C:\Users\user\Desktop\DomashniCSharp\Chas02\vezbiidomasno02\bin\Debug\netcoreapp3.1\vezbiidomasno02.deps.json
+C:\Users\user\Desktop\DomashniCSharp\Chas02\vezbiidomasno02\bin\Debug\netcoreapp3.1\vezbiidomasno02.runtimeconfig.json
+C:\Users\user\Desktop\DomashniCSharp\Chas02\vezbiidomasno02\bin\Debug\netcoreapp3.1\vezbiidomasno02.runtimeconfig.dev.json
+C:\Users\user\Desktop\DomashniCSharp\Chas02\vezbiidomasno02\bin\Debug\netcoreapp3.1\vezbiidomasno02.dll
+C:\Users\user\Desktop\DomashniCSharp\Chas02\vezbiidomasno02\bin\Debug\netcoreapp3.1\vezbiidomasno02.pdb
+C:\Users\user\Desktop\DomashniCSharp\Chas02\vezbiidomasno02\obj\Debug\netcoreapp3.1\vezbiidomasno02.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\DomashniCSharp\Chas02\vezbiidomasno02\obj\Debug\netcoreapp3.1\vezbiidomasno02.AssemblyInfo.cs
+C:\Users\user\Desktop\DomashniCSharp\Chas02\vezbiidomasno02\obj\Debug\netcoreapp3.1\vezbiidomasno02.dll
+C:\Users\user\Desktop\DomashniCSharp\Chas02\vezbiidomasno02\obj\Debug\netcoreapp3.1\vezbiidomasno02.pdb
+C:\Users\user\Desktop\DomashniCSharp\Chas02\vezbiidomasno02\obj\Debug\netcoreapp3.1\vezbiidomasno02.csprojAssemblyReference.cache
