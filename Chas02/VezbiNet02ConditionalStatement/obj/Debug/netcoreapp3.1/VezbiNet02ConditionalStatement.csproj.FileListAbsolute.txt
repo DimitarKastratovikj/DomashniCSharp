@@ -1,0 +1,11 @@
+C:\Users\user\Desktop\DomashniCSharp\Chas02\VezbiNet02ConditionalStatement\bin\Debug\netcoreapp3.1\VezbiNet02ConditionalStatement.exe
+C:\Users\user\Desktop\DomashniCSharp\Chas02\VezbiNet02ConditionalStatement\bin\Debug\netcoreapp3.1\VezbiNet02ConditionalStatement.deps.json
+C:\Users\user\Desktop\DomashniCSharp\Chas02\VezbiNet02ConditionalStatement\bin\Debug\netcoreapp3.1\VezbiNet02ConditionalStatement.runtimeconfig.json
+C:\Users\user\Desktop\DomashniCSharp\Chas02\VezbiNet02ConditionalStatement\bin\Debug\netcoreapp3.1\VezbiNet02ConditionalStatement.runtimeconfig.dev.json
+C:\Users\user\Desktop\DomashniCSharp\Chas02\VezbiNet02ConditionalStatement\bin\Debug\netcoreapp3.1\VezbiNet02ConditionalStatement.dll
+C:\Users\user\Desktop\DomashniCSharp\Chas02\VezbiNet02ConditionalStatement\bin\Debug\netcoreapp3.1\VezbiNet02ConditionalStatement.pdb
+C:\Users\user\Desktop\DomashniCSharp\Chas02\VezbiNet02ConditionalStatement\obj\Debug\netcoreapp3.1\VezbiNet02ConditionalStatement.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\DomashniCSharp\Chas02\VezbiNet02ConditionalStatement\obj\Debug\netcoreapp3.1\VezbiNet02ConditionalStatement.AssemblyInfo.cs
+C:\Users\user\Desktop\DomashniCSharp\Chas02\VezbiNet02ConditionalStatement\obj\Debug\netcoreapp3.1\VezbiNet02ConditionalStatement.dll
+C:\Users\user\Desktop\DomashniCSharp\Chas02\VezbiNet02ConditionalStatement\obj\Debug\netcoreapp3.1\VezbiNet02ConditionalStatement.pdb
+C:\Users\user\Desktop\DomashniCSharp\Chas02\VezbiNet02ConditionalStatement\obj\Debug\netcoreapp3.1\VezbiNet02ConditionalStatement.csprojAssemblyReference.cache

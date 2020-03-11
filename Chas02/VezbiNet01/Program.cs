@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace VezbiNet01
+namespace VezbiNet01BasicExercises
 {
     class Program
     {
@@ -213,7 +213,7 @@ namespace VezbiNet01
             #endregion
 
             #region 11
-            Console.WriteLine("Write a C# Sharp program that takes an age (for example 20)" +
+            Console.WriteLine("11.Write a C# Sharp program that takes an age (for example 20)" +
                 " as input and prints something as" + "You look older than 20");
             Console.WriteLine();
             int age;
@@ -222,13 +222,95 @@ namespace VezbiNet01
             Console.Write("You look younger than {0} ", age);
             Console.WriteLine();
             #endregion
+
             #region 12
+            Console.WriteLine("12. Write a C# program to that takes a number as input" +
+                " and display it four times in a row (separated by blank spaces), " +
+                "and then four times in the next row, with no separation. " +
+                "You should do it two times: Use Console. Write and then use {0}.");
+            int num15;
+            Console.Write("pls insert number - ");
+            num15 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("{0}{0}{0}{0}", num15);
+            Console.WriteLine("{0} {0} {0} {0}", num15);
+
+            //// Part A: "num num num num" using Write  ---------  od net 
+            //Console.Write(num);
+            //Console.Write(" ");
+            //Console.Write(num);
+            //Console.Write(" ");
+            //Console.Write(num);
+            //Console.Write(" ");
+            //Console.Write(num);
+            //Console.WriteLine();
+
+            //// Part B: "numnumnumnum" using Write
+            //Console.Write(num);
+            //Console.Write(num);
+            //Console.Write(num);
+            //Console.WriteLine(num);
+            //Console.WriteLine();
+
             #endregion
+
             #region 13
+            Console.WriteLine("13. Write a C# program that takes a number as input and then displays a " +
+                "rectangle of 3 columns wide and 5 rows tall using that digit. ");
+            int num16;
+            Console.Write("pls insert number - ");
+            num16 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine();
+            Console.WriteLine($"{num16} {num16} {num16}");
+            Console.WriteLine($"{num16}     {num16}");
+            Console.WriteLine($"{num16}     {num16}");
+            Console.WriteLine($"{num16}     {num16}");
+            Console.WriteLine($"{num16} {num16} {num16}");
             #endregion
+
             #region 14
+            Console.WriteLine("14. Write a C# program to convert from celsius degrees to Kelvin and Fahrenheit.");
+            int num17;
+            Console.Write("Enter number - ");
+            num17 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter the amount of celsius: {0}", (num17));
+            Console.WriteLine(" to Kelvin: {0}", (num17 + 273));
+            Console.WriteLine(" to Fahrenheit: {0}", (num17 * 18 / 10 + 32));
+            Console.WriteLine();
             #endregion
             #region 15
+            Console.WriteLine("15. Write a C# program remove specified a character " +
+                "from a non-empty string using index of a character.");
+
+            #endregion
+            #region 16
+            #endregion
+            #region 17
+            #endregion
+            #region 18
+            #endregion
+            #region 19
+            #endregion
+            #region 20
+            #endregion
+            #region 21
+            #endregion
+            #region 22
+            #endregion
+            #region 23
+            #endregion
+            #region 24
+            #endregion
+            #region 25
+            #endregion
+            #region 26
+            #endregion
+            #region 27
+            #endregion
+            #region 28
+            #endregion
+            #region 29
+            #endregion
+            #region 30
             #endregion
             Console.ReadLine();
         }

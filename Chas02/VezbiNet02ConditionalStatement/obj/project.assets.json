@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\Desktop\\DomashniCSharp\\Chas02\\VezbiNet01\\VezbiNet01Basic Exercises.csproj",
-      "projectName": "VezbiNet01Basic Exercises",
-      "projectPath": "C:\\Users\\user\\Desktop\\DomashniCSharp\\Chas02\\VezbiNet01\\VezbiNet01Basic Exercises.csproj",
+      "projectUniqueName": "C:\\Users\\user\\Desktop\\DomashniCSharp\\Chas02\\VezbiNet02ConditionalStatement\\VezbiNet02ConditionalStatement.csproj",
+      "projectName": "VezbiNet02ConditionalStatement",
+      "projectPath": "C:\\Users\\user\\Desktop\\DomashniCSharp\\Chas02\\VezbiNet02ConditionalStatement\\VezbiNet02ConditionalStatement.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\Desktop\\DomashniCSharp\\Chas02\\VezbiNet01\\obj\\",
+      "outputPath": "C:\\Users\\user\\Desktop\\DomashniCSharp\\Chas02\\VezbiNet02ConditionalStatement\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
