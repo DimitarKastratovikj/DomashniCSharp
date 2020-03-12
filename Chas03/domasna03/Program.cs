@@ -95,10 +95,28 @@ namespace domasna03
             if (!falceImp)
             {
                 trueString = addName;
-                Console.WriteLine($"You have added<{trueString}>to the list of names");
+                Console.WriteLine($"You have added <{trueString}> to the list of names");
                 Array.Resize(ref strNames, 4);
                 strNames[3] = trueString;
                 Console.WriteLine();
+
+                string yes = "y";
+                string no = "y";
+                //while (!falceImp)
+                //{
+
+                //    Console.Write("Do want to enter another name(Y / N) ");
+                //    string yesNo = Console.ReadLine();
+                    
+                //    //if (yesNo == yes)
+                //    //{
+                //    //    for (int i = 0; i < ; i++)
+                //    //    {
+
+                //    //    }
+                //    //}
+
+                //}
 
             }
             else
