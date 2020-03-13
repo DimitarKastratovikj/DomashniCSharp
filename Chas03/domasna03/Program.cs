@@ -20,10 +20,16 @@ namespace domasna03
 
             if (validInput)
             {
+
                 for (int i = 1; i <= validNumber; i++)
                 {
                     Console.WriteLine(i);
                 }
+
+            }
+            else
+            {
+                Console.WriteLine("pls enter a number");
             }
 
             Console.Write("enter a number <-- ");
@@ -37,6 +43,10 @@ namespace domasna03
                 {
                     Console.WriteLine(i);
                 }
+            }
+            else
+            {
+                Console.WriteLine("pls enter a number");
             }
 
             ////            EXERCISE 02:
@@ -59,6 +69,10 @@ namespace domasna03
                         Console.WriteLine(i);
                 }
             }
+            else
+            {
+                Console.WriteLine("pls enter a number");
+            }
 
             Console.Write("enter a number <odd> ");
             var userInput3 = Console.ReadLine();
@@ -72,6 +86,10 @@ namespace domasna03
                     if (i % 2 == 1)
                         Console.WriteLine(i);
                 }
+            }
+            else
+            {
+                Console.WriteLine("pls enter a number");
             }
 
             //            EXERCISE 03:
@@ -88,53 +106,56 @@ namespace domasna03
             string[] strNames = new string[] { "Dime", "Bocka", "Ogi" };
             Console.Write("Enter a name in the list: ");
             var addName = Console.ReadLine();
-            
+
             int fInput;
             string trueString;
 
             bool falceImp = int.TryParse(addName, out fInput);
             string yes1 = "y";
-            
 
             int vnesiKocka = strNames.Length + 1;
             int vnesiRed = strNames.Length;
 
             trueString = addName;
-
-            Console.WriteLine($"You have added <{trueString}> to the list of names");
-            Array.Resize(ref strNames, vnesiKocka);
-            strNames[vnesiRed] = trueString;
-            Console.WriteLine();
-            Console.Write("Do want to enter another name(Y / N) ");
-           
-            var yesNo = Console.ReadLine();
-            string primer = yesNo;
-
-            while (!falceImp && primer == yes1) 
+            if (!falceImp)
             {
-                string ime;
-                Console.Write("Enter a name in the list:  ");
-                var novoIme = Console.ReadLine();
-                ime = novoIme;
-
-                vnesiKocka = strNames.Length + 1;
+                Console.WriteLine($"You have added <{trueString}> to the list of names");
                 Array.Resize(ref strNames, vnesiKocka);
-                vnesiRed = vnesiRed + 1;
-                strNames[vnesiRed] = ime;
+                strNames[vnesiRed] = trueString;
                 Console.WriteLine();
-                Console.Write("Do want to enter another name(Y / N) : ");
-                
-                primer = Console.ReadLine();
-            }
+                Console.Write("Do want to enter another name(Y / N) ");
 
+                var yesNo = Console.ReadLine();
+                string primer = yesNo;
+
+                while (primer == yes1)
+                {
+                    string ime;
+                    Console.Write("Enter a name in the list:  ");
+                    var novoIme = Console.ReadLine();
+                    ime = novoIme;
+
+                    vnesiKocka = strNames.Length + 1;
+                    Array.Resize(ref strNames, vnesiKocka);
+                    vnesiRed = vnesiRed + 1;
+                    strNames[vnesiRed] = ime;
+                    Console.WriteLine();
+                    Console.Write("Do want to enter another name(Y / N) : ");
+
+                    primer = Console.ReadLine();
+                }
+            }
+            else
+            {
+                Console.WriteLine("PLSS enter a name!");
+            }
             Console.WriteLine();
-            Console.WriteLine( "THE LIST OF NAMES : ");
+            Console.WriteLine("THE LIST OF NAMES : ");
             foreach (var item in strNames)
             {
                 Console.WriteLine();
                 Console.WriteLine(item);
             }
-
 
             Console.ReadLine();
 
