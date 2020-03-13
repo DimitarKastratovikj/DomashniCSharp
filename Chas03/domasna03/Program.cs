@@ -126,9 +126,9 @@ namespace domasna03
                 Console.Write("Do want to enter another name(Y / N) ");
 
                 var yesNo = Console.ReadLine();
-                string primer = yesNo;
+                string akoE = yesNo;
 
-                while (primer == yes1)
+                while (akoE == yes1)
                 {
                     string ime;
                     Console.Write("Enter a name in the list:  ");
@@ -142,7 +142,7 @@ namespace domasna03
                     Console.WriteLine();
                     Console.Write("Do want to enter another name(Y / N) : ");
 
-                    primer = Console.ReadLine();
+                    akoE = Console.ReadLine();
                 }
             }
             else
