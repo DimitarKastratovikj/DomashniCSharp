@@ -107,8 +107,10 @@ namespace domasna03
             Console.Write("Enter a name in the list: ");
             var addName = Console.ReadLine();
 
-            int broj;
+            
             string vnesenoIme;
+            vnesenoIme = addName;
+            int broj;
 
             bool brojka = int.TryParse(addName, out broj);
             string yes1 = "y";
@@ -116,7 +118,7 @@ namespace domasna03
             int dodajKocka = listaSoIminja.Length + 1;
             int vnesiVoKocka = listaSoIminja.Length;
 
-            vnesenoIme = addName;
+            
             if (!brojka)
             {
                 Console.WriteLine($"You have added <{vnesenoIme}> to the list of names");
