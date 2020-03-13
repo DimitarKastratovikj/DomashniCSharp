@@ -103,25 +103,25 @@ namespace domasna03
             //Hint: we need to use endless loop until user enter N, then we want to "break" the loop
 
 
-            string[] strNames = new string[] { "Dime", "Bocka", "Ogi" };
+            string[] listaSoIminja = new string[] { "Dime", "Bocka", "Ogi" };
             Console.Write("Enter a name in the list: ");
             var addName = Console.ReadLine();
 
-            int fInput;
-            string trueString;
+            int broj;
+            string vnesenoIme;
 
-            bool falceImp = int.TryParse(addName, out fInput);
+            bool brojka = int.TryParse(addName, out broj);
             string yes1 = "y";
 
-            int vnesiKocka = strNames.Length + 1;
-            int vnesiRed = strNames.Length;
+            int dodajKocka = listaSoIminja.Length + 1;
+            int vnesiVoKocka = listaSoIminja.Length;
 
-            trueString = addName;
-            if (!falceImp)
+            vnesenoIme = addName;
+            if (!brojka)
             {
-                Console.WriteLine($"You have added <{trueString}> to the list of names");
-                Array.Resize(ref strNames, vnesiKocka);
-                strNames[vnesiRed] = trueString;
+                Console.WriteLine($"You have added <{vnesenoIme}> to the list of names");
+                Array.Resize(ref listaSoIminja, dodajKocka);
+                listaSoIminja[vnesiVoKocka] = vnesenoIme;
                 Console.WriteLine();
                 Console.Write("Do want to enter another name(Y / N) ");
 
@@ -135,10 +135,10 @@ namespace domasna03
                     var novoIme = Console.ReadLine();
                     ime = novoIme;
 
-                    vnesiKocka = strNames.Length + 1;
-                    Array.Resize(ref strNames, vnesiKocka);
-                    vnesiRed = vnesiRed + 1;
-                    strNames[vnesiRed] = ime;
+                    dodajKocka = listaSoIminja.Length + 1;
+                    Array.Resize(ref listaSoIminja, dodajKocka);
+                    vnesiVoKocka = vnesiVoKocka + 1;
+                    listaSoIminja[vnesiVoKocka] = ime;
                     Console.WriteLine();
                     Console.Write("Do want to enter another name(Y / N) : ");
 
@@ -151,7 +151,7 @@ namespace domasna03
             }
             Console.WriteLine();
             Console.WriteLine("THE LIST OF NAMES : ");
-            foreach (var item in strNames)
+            foreach (var item in listaSoIminja)
             {
                 Console.WriteLine();
                 Console.WriteLine(item);
