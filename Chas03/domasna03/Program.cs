@@ -141,6 +141,7 @@ namespace domasna03
                     Array.Resize(ref listaSoIminja, dodajKocka);
                     vnesiVoKocka = vnesiVoKocka + 1;
                     listaSoIminja[vnesiVoKocka] = ime;
+                   
                     Console.WriteLine();
                     Console.Write("Do want to enter another name(Y / N) : ");
 

@@ -1,0 +1,11 @@
+C:\Users\user\Desktop\DomashniCSharp\Chas03\vezbiLoopsNet\bin\Debug\netcoreapp3.1\vezbiLoopsNet.exe
+C:\Users\user\Desktop\DomashniCSharp\Chas03\vezbiLoopsNet\bin\Debug\netcoreapp3.1\vezbiLoopsNet.deps.json
+C:\Users\user\Desktop\DomashniCSharp\Chas03\vezbiLoopsNet\bin\Debug\netcoreapp3.1\vezbiLoopsNet.runtimeconfig.json
+C:\Users\user\Desktop\DomashniCSharp\Chas03\vezbiLoopsNet\bin\Debug\netcoreapp3.1\vezbiLoopsNet.runtimeconfig.dev.json
+C:\Users\user\Desktop\DomashniCSharp\Chas03\vezbiLoopsNet\bin\Debug\netcoreapp3.1\vezbiLoopsNet.dll
+C:\Users\user\Desktop\DomashniCSharp\Chas03\vezbiLoopsNet\bin\Debug\netcoreapp3.1\vezbiLoopsNet.pdb
+C:\Users\user\Desktop\DomashniCSharp\Chas03\vezbiLoopsNet\obj\Debug\netcoreapp3.1\vezbiLoopsNet.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\DomashniCSharp\Chas03\vezbiLoopsNet\obj\Debug\netcoreapp3.1\vezbiLoopsNet.AssemblyInfo.cs
+C:\Users\user\Desktop\DomashniCSharp\Chas03\vezbiLoopsNet\obj\Debug\netcoreapp3.1\vezbiLoopsNet.dll
+C:\Users\user\Desktop\DomashniCSharp\Chas03\vezbiLoopsNet\obj\Debug\netcoreapp3.1\vezbiLoopsNet.pdb
+C:\Users\user\Desktop\DomashniCSharp\Chas03\vezbiLoopsNet\obj\Debug\netcoreapp3.1\vezbiLoopsNet.csprojAssemblyReference.cache
