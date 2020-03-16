@@ -69,9 +69,10 @@ namespace vezbiLoopsNet
             {
                 Console.WriteLine("ENTER A NUMBER!!");
             }
-
             #endregion
+
             #region 04
+            Console.WriteLine("4. Write a program in C# Sharp to read 10 numbers from keyboard and find their sum and average.");
             #endregion
             #region 05
             #endregion
