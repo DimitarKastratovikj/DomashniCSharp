@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29905.134
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "arraysMethods", "ConsoleApp1\arraysMethods.csproj", "{C45F18D8-2ABF-4390-8173-49948F397FF3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "arraysMethods", "ConsoleApp1\arraysMethods.csproj", "{C45F18D8-2ABF-4390-8173-49948F397FF3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "domasna03", "..\domasna03\domasna03.csproj", "{BDB34854-62D6-4B12-8D56-5280A687D9A8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "domasna03", "..\domasna03\domasna03.csproj", "{BDB34854-62D6-4B12-8D56-5280A687D9A8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "vezbiLoopsNet", "..\vezbiLoopsNet\vezbiLoopsNet.csproj", "{1CCC1FED-BDF0-4259-BC33-826FD637A950}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "vezbiLoopsNet", "..\vezbiLoopsNet\vezbiLoopsNet.csproj", "{1CCC1FED-BDF0-4259-BC33-826FD637A950}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Class03ExtraExercisesG1", "..\Class03ExtraExercisesG1\Class03ExtraExercisesG1.csproj", "{7529630F-37FE-482B-AFDB-3DD856D5B40E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{1CCC1FED-BDF0-4259-BC33-826FD637A950}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1CCC1FED-BDF0-4259-BC33-826FD637A950}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1CCC1FED-BDF0-4259-BC33-826FD637A950}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7529630F-37FE-482B-AFDB-3DD856D5B40E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7529630F-37FE-482B-AFDB-3DD856D5B40E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7529630F-37FE-482B-AFDB-3DD856D5B40E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7529630F-37FE-482B-AFDB-3DD856D5B40E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
