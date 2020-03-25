@@ -140,39 +140,26 @@ namespace Class03ExtraExercisesG1
 
             #region 04
 
-            Console.WriteLine("Write a program in C# Sharp to count a total number of duplicate elements in arrayWithDuplicates");
+            Console.WriteLine("Write a program in C# Sharp to " +
+                "count a total number of duplicate elements in arrayWithDuplicates");
 
             
 
-            int[] array = { 1, 4, 6, 3, 4, 5, 9, 3, 2, 9 };
+            int[] arrayWithDuplicates = new int[] { 1, 4, 6, 3, 4, 5, 9, 3, 2, 9,10,11,11 };
 
-            Array.Sort(array);
+            int numberOfDuplic = 0;
 
-
-            
-            int[] count = new int[10];
-
-            foreach (int number in array)
+            for (int i = 0; i < arrayWithDuplicates.Length; i++)
             {
-                // using the index of count same way you'd use a key in a dictionary
-                count[number]++;
-            }
-
-            foreach (int c in count)
-            {
-                int numberCount = count[c];
-                if (numberCount > 0)
+                for (int j = i+1; j < arrayWithDuplicates.Length; j++)
                 {
-                    Console.WriteLine(c + " occurs " + numberCount + " times");
+                    if (arrayWithDuplicates[i] == arrayWithDuplicates[j])
+                    {
+                        numberOfDuplic++;
+                    }
                 }
             }
-            //for (int i = 0; i < arrayWithDuplicates.Length; i++)
-            //{
-            //    Console.WriteLine(arrayWithDuplicates[i]);
-        
-
-
-
+            Console.WriteLine("the number of duplicates is --> {0}",numberOfDuplic);
 
             #endregion
 

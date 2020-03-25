@@ -9,3 +9,14 @@ C:\Users\user\Desktop\DomashniCSharp\Chas03\Class03ExtraExercisesG1\obj\Debug\ne
 C:\Users\user\Desktop\DomashniCSharp\Chas03\Class03ExtraExercisesG1\obj\Debug\netcoreapp3.1\Class03ExtraExercisesG1.AssemblyInfo.cs
 C:\Users\user\Desktop\DomashniCSharp\Chas03\Class03ExtraExercisesG1\obj\Debug\netcoreapp3.1\Class03ExtraExercisesG1.dll
 C:\Users\user\Desktop\DomashniCSharp\Chas03\Class03ExtraExercisesG1\obj\Debug\netcoreapp3.1\Class03ExtraExercisesG1.pdb
+D:\DomashniCSharp\1\Chas03\Class03ExtraExercisesG1\bin\Debug\netcoreapp3.1\Class03ExtraExercisesG1.exe
+D:\DomashniCSharp\1\Chas03\Class03ExtraExercisesG1\bin\Debug\netcoreapp3.1\Class03ExtraExercisesG1.deps.json
+D:\DomashniCSharp\1\Chas03\Class03ExtraExercisesG1\bin\Debug\netcoreapp3.1\Class03ExtraExercisesG1.runtimeconfig.json
+D:\DomashniCSharp\1\Chas03\Class03ExtraExercisesG1\bin\Debug\netcoreapp3.1\Class03ExtraExercisesG1.runtimeconfig.dev.json
+D:\DomashniCSharp\1\Chas03\Class03ExtraExercisesG1\bin\Debug\netcoreapp3.1\Class03ExtraExercisesG1.dll
+D:\DomashniCSharp\1\Chas03\Class03ExtraExercisesG1\bin\Debug\netcoreapp3.1\Class03ExtraExercisesG1.pdb
+D:\DomashniCSharp\1\Chas03\Class03ExtraExercisesG1\obj\Debug\netcoreapp3.1\Class03ExtraExercisesG1.csprojAssemblyReference.cache
+D:\DomashniCSharp\1\Chas03\Class03ExtraExercisesG1\obj\Debug\netcoreapp3.1\Class03ExtraExercisesG1.AssemblyInfoInputs.cache
+D:\DomashniCSharp\1\Chas03\Class03ExtraExercisesG1\obj\Debug\netcoreapp3.1\Class03ExtraExercisesG1.AssemblyInfo.cs
+D:\DomashniCSharp\1\Chas03\Class03ExtraExercisesG1\obj\Debug\netcoreapp3.1\Class03ExtraExercisesG1.dll
+D:\DomashniCSharp\1\Chas03\Class03ExtraExercisesG1\obj\Debug\netcoreapp3.1\Class03ExtraExercisesG1.pdb

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\Desktop\\DomashniCSharp\\Chas03\\Chas03\\ConsoleApp1\\arraysMethods.csproj": {}
+    "D:\\DomashniCSharp\\1\\Chas03\\Chas03\\ConsoleApp1\\arraysMethods.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\Desktop\\DomashniCSharp\\Chas03\\Chas03\\ConsoleApp1\\arraysMethods.csproj": {
+    "D:\\DomashniCSharp\\1\\Chas03\\Chas03\\ConsoleApp1\\arraysMethods.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Desktop\\DomashniCSharp\\Chas03\\Chas03\\ConsoleApp1\\arraysMethods.csproj",
+        "projectUniqueName": "D:\\DomashniCSharp\\1\\Chas03\\Chas03\\ConsoleApp1\\arraysMethods.csproj",
         "projectName": "arraysMethods",
-        "projectPath": "C:\\Users\\user\\Desktop\\DomashniCSharp\\Chas03\\Chas03\\ConsoleApp1\\arraysMethods.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Desktop\\DomashniCSharp\\Chas03\\Chas03\\ConsoleApp1\\obj\\",
+        "projectPath": "D:\\DomashniCSharp\\1\\Chas03\\Chas03\\ConsoleApp1\\arraysMethods.csproj",
+        "packagesPath": "C:\\Users\\Crki\\.nuget\\packages\\",
+        "outputPath": "D:\\DomashniCSharp\\1\\Chas03\\Chas03\\ConsoleApp1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Crki\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -52,7 +52,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
