@@ -7,7 +7,7 @@ namespace Class03ExtraExercisesG1
         static void Main(string[] args)
         {
 
-            //#region 01
+            #region 01
             //Console.WriteLine("1. Write a C# Sharp program to find the sum of first 10 natural numbers");
 
             //Console.Write("Enter a number :  ");
@@ -29,9 +29,9 @@ namespace Class03ExtraExercisesG1
             //{
             //    Console.WriteLine("ENTER A NUMBER!!");
             //}
-            //#endregion
+            #endregion
 
-            //#region 02
+            #region 02
             //Console.WriteLine("2. Write a program in C# Sharp to read 10 numbers from keyboard and find their sum and average.");
             //Console.Write("Enter 1st number :  ");
             //var imput21 = Console.ReadLine();
@@ -100,9 +100,9 @@ namespace Class03ExtraExercisesG1
             //    Console.WriteLine("enter number!");
             //}
 
-            //#endregion
+            #endregion
 
-            //#region 03
+            #region 03
             //Console.WriteLine("Declare and init array of 10 integers by your choise."+ 
             //                  "Find maximum and minimum element in that array and their indexes.");
             //Console.WriteLine("Press ENTER to continue.");
@@ -136,37 +136,60 @@ namespace Class03ExtraExercisesG1
             //}
             //Console.WriteLine(" maximum number in the array is  : {0}", min1);
 
-            //#endregion
+            #endregion
 
             #region 04
 
-            Console.WriteLine("Write a program in C# Sharp to " +
-                "count a total number of duplicate elements in arrayWithDuplicates");
+            //Console.WriteLine("Write a program in C# Sharp to " +
+            //    "count a total number of duplicate elements in arrayWithDuplicates");
 
-            
 
-            int[] arrayWithDuplicates = new int[] { 1, 4, 6, 3, 4, 5, 9, 3, 2, 9,10,11,11 };
 
-            int numberOfDuplic = 0;
+            //int[] arrayWithDuplicates = new int[] { 1, 4, 6, 3, 4, 5, 9, 3, 2, 9,10,11,11 };
 
-            for (int i = 0; i < arrayWithDuplicates.Length; i++)
-            {
-                for (int j = i+1; j < arrayWithDuplicates.Length; j++)
-                {
-                    if (arrayWithDuplicates[i] == arrayWithDuplicates[j])
-                    {
-                        numberOfDuplic++;
-                    }
-                }
-            }
-            Console.WriteLine("the number of duplicates is --> {0}",numberOfDuplic);
+            //int numberOfDuplic = 0;
+
+            //for (int i = 0; i < arrayWithDuplicates.Length; i++)
+            //{
+            //    for (int j = i+1; j < arrayWithDuplicates.Length; j++)
+            //    {
+            //        if (arrayWithDuplicates[i] == arrayWithDuplicates[j])
+            //        {
+            //            numberOfDuplic++;
+            //        }
+            //    }
+            //}
+            //Console.WriteLine("the number of duplicates is --> {0}",numberOfDuplic);
 
             #endregion
 
             #region 05
-            //    int[] oddEvenArray = { 10, 23, 44, 123, 55, 52, 98, 99, 102, 103, 152, 49 };
-            //Console.WriteLine("Write a program in C# Sharp to separate odd and even integers from the oddEvenArray in separate arrays");
 
+
+            int[] oddEvenArray = { 10, 23, 44, 123, 55, 52, 98, 99, 102, 103, 152, 49 };
+            Console.WriteLine("Write a program in C# Sharp to separate" +
+                " odd and even integers from the oddEvenArray in separate arrays");
+            int[] odds = new int[] { };
+            int[] evens = new int[] { };
+            for (int i = 0; i < oddEvenArray.Length; i++)
+            {
+                //Console.WriteLine(oddEvenArray[i]);
+                if (oddEvenArray[i] % 2 == 1)
+                {
+                    Array.Resize(ref odds, oddEvenArray[i]);
+
+                }
+
+            }
+            for (int i = 0; i < odds.Length; i++)
+            {
+                Console.WriteLine(odds[i]);
+            }
+            //Console.WriteLine(dodajKockaEve);
+            //foreach (var item in evens)
+            //{
+            //    Console.WriteLine("evens > {0}",item);
+            //}
 
             #endregion
             #region 06
