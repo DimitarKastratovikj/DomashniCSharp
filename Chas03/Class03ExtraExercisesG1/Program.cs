@@ -169,28 +169,35 @@ namespace Class03ExtraExercisesG1
             int[] oddEvenArray = { 10, 23, 44, 123, 55, 52, 98, 99, 102, 103, 152, 49 };
             Console.WriteLine("Write a program in C# Sharp to separate" +
                 " odd and even integers from the oddEvenArray in separate arrays");
-            int[] odds = new int[] { };
-            int[] evens = new int[] { };
-            for (int i = 0; i < oddEvenArray.Length; i++)
+            int[] arr1 = new int[] { 10, 23, 44, 123, 55, 52, 98, 99, 102, 103,};
+            int[] arr2 = new int[5];
+            int[] arr3 = new int[5];
+            int i ; 
+            int even = 0;
+            int odd = 0;
+            for (i = 0; i < 5; i++)
             {
-                //Console.WriteLine(oddEvenArray[i]);
-                if (oddEvenArray[i] % 2 == 1)
+                if (arr1[i] % 2 == 0)
                 {
-                    Array.Resize(ref odds, oddEvenArray[i]);
-
+                    arr2[even] = arr1[i];
+                    even++;
                 }
-
+                else
+                {
+                    arr3[odd] = arr1[i];
+                    odd++;
+                }
             }
-            for (int i = 0; i < odds.Length; i++)
+            Console.WriteLine("even integers");
+            for (i = 0; i < even; i++)
             {
-                Console.WriteLine(odds[i]);
+                Console.WriteLine(arr2[i]);
             }
-            //Console.WriteLine(dodajKockaEve);
-            //foreach (var item in evens)
-            //{
-            //    Console.WriteLine("evens > {0}",item);
-            //}
-
+            Console.WriteLine("odd integers");
+            for (i = 0; i < odd; i++)
+            {
+                Console.WriteLine(arr3[i]);
+            }
             #endregion
             #region 06
             #endregion

@@ -20,3 +20,16 @@ D:\DomashniCSharp\1\Chas03\Class03ExtraExercisesG1\obj\Debug\netcoreapp3.1\Class
 D:\DomashniCSharp\1\Chas03\Class03ExtraExercisesG1\obj\Debug\netcoreapp3.1\Class03ExtraExercisesG1.AssemblyInfo.cs
 D:\DomashniCSharp\1\Chas03\Class03ExtraExercisesG1\obj\Debug\netcoreapp3.1\Class03ExtraExercisesG1.dll
 D:\DomashniCSharp\1\Chas03\Class03ExtraExercisesG1\obj\Debug\netcoreapp3.1\Class03ExtraExercisesG1.pdb
+C:\Users\Admin\Documents\GitHub\DomashniCSharp\Chas03\Class03ExtraExercisesG1\bin\Debug\netcoreapp3.1\Class03ExtraExercisesG1.exe
+C:\Users\Admin\Documents\GitHub\DomashniCSharp\Chas03\Class03ExtraExercisesG1\bin\Debug\netcoreapp3.1\Class03ExtraExercisesG1.deps.json
+C:\Users\Admin\Documents\GitHub\DomashniCSharp\Chas03\Class03ExtraExercisesG1\bin\Debug\netcoreapp3.1\Class03ExtraExercisesG1.runtimeconfig.json
+C:\Users\Admin\Documents\GitHub\DomashniCSharp\Chas03\Class03ExtraExercisesG1\bin\Debug\netcoreapp3.1\Class03ExtraExercisesG1.runtimeconfig.dev.json
+C:\Users\Admin\Documents\GitHub\DomashniCSharp\Chas03\Class03ExtraExercisesG1\bin\Debug\netcoreapp3.1\Class03ExtraExercisesG1.dll
+C:\Users\Admin\Documents\GitHub\DomashniCSharp\Chas03\Class03ExtraExercisesG1\bin\Debug\netcoreapp3.1\Class03ExtraExercisesG1.pdb
+C:\Users\Admin\Documents\GitHub\DomashniCSharp\Chas03\Class03ExtraExercisesG1\obj\Debug\netcoreapp3.1\Class03ExtraExercisesG1.csprojAssemblyReference.cache
+C:\Users\Admin\Documents\GitHub\DomashniCSharp\Chas03\Class03ExtraExercisesG1\obj\Debug\netcoreapp3.1\Class03ExtraExercisesG1.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\GitHub\DomashniCSharp\Chas03\Class03ExtraExercisesG1\obj\Debug\netcoreapp3.1\Class03ExtraExercisesG1.AssemblyInfoInputs.cache
+C:\Users\Admin\Documents\GitHub\DomashniCSharp\Chas03\Class03ExtraExercisesG1\obj\Debug\netcoreapp3.1\Class03ExtraExercisesG1.AssemblyInfo.cs
+C:\Users\Admin\Documents\GitHub\DomashniCSharp\Chas03\Class03ExtraExercisesG1\obj\Debug\netcoreapp3.1\Class03ExtraExercisesG1.dll
+C:\Users\Admin\Documents\GitHub\DomashniCSharp\Chas03\Class03ExtraExercisesG1\obj\Debug\netcoreapp3.1\Class03ExtraExercisesG1.pdb
+C:\Users\Admin\Documents\GitHub\DomashniCSharp\Chas03\Class03ExtraExercisesG1\obj\Debug\netcoreapp3.1\Class03ExtraExercisesG1.genruntimeconfig.cache
