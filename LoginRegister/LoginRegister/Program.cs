@@ -6,8 +6,9 @@ namespace LoginRegister
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello user! If u want to LogIn press 1");
-            Console.WriteLine(" if u want to Register press 2");
+            Console.WriteLine("Hello user!");
+            Console.WriteLine("--If u want to LogIn press 1");
+            Console.WriteLine("--if u want to Register press 2");
 
             var userChoise = Console.ReadLine();
             int validUserChoise;
@@ -24,23 +25,58 @@ namespace LoginRegister
             if (validUserNumberChoise && validUserChoise == 1)
             {
                 Console.WriteLine("Welcome Old User, Pls enter Username And Password");
-                Console.Write("Enter Username: ");
+                Console.Write(" -- Enter Username: ");
                 username = Console.ReadLine();
-                Console.Write("Enter Password: ");
+                Console.Write(" -- Enter Password: ");
                 password = Console.ReadLine();
                 if (listaSoUsernames[0] == "Admin" && listaSoPasswords[0] == "Ad#mi8$s@")
                 {
                     Console.WriteLine("Welcome Administrator,");
-                    Console.WriteLine(" for List of all Users press 1 ");
-                    Console.WriteLine(" to Delete User press 2 ");
+                    Console.WriteLine(" --- for List of all Users press 1 ");
+                    Console.WriteLine(" --- to Delete User press 2 ");
+                    
                     userChoise = Console.ReadLine();
                     validUserNumberChoise = int.TryParse(userChoise, out validUserChoise);
                     if (validUserNumberChoise && validUserChoise == 1)
                     {
+
                         for (int i = 0; i < listaSoUsernames.Length; i++)
                         {
                             Console.WriteLine(listaSoUsernames[i]);
                         }
+
+                    }
+                    else if (validUserNumberChoise && validUserChoise == 2)
+                    {
+                        
+                        for (int i = 0; i < listaSoUsernames.Length; i++)
+                        {
+                            Console.WriteLine(listaSoUsernames[i]);
+                        }
+                        Console.WriteLine();
+                        Console.Write("Select a user to delete: ");
+                        
+                        string deleteUser = Console.ReadLine();
+                        int userIndex = 0;
+
+                        if (deleteUser == "Admin")
+                        {
+                            Console.WriteLine(" U CANNOT DELETE ADMIN !! ");
+                        }
+                        else if (deleteUser != "Admin")
+                        {
+                            for (int i = 0; i < listaSoUsernames.Length; i++)
+                            {
+                                if (listaSoUsernames[i] == deleteUser)
+                                {
+                                    userIndex = i;
+                                }
+                            }
+                            Console.WriteLine(userIndex);
+                            // kako da delitnam username od stringot so pomosh na index brojot
+                        }
+
+                      
 
                     }
                 }
