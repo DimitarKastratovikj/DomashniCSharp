@@ -17,7 +17,7 @@ namespace LoginRegister
             string username, password;
             string newUsername, newPassword;
             string[] listaSoUsernames = new string[3] { "Admin", "Dime", "Jasmina" };
-            string[] listaSoPasswords = new string[3] { "Ad#mi8$s@", "kastro", "jasmin" };
+            string[] listaSoPasswords = new string[3] { "1a", "kastro", "jasmin" };
 
             //Console.WriteLine(listaSoUsernames[0]);
 
@@ -29,12 +29,12 @@ namespace LoginRegister
                 username = Console.ReadLine();
                 Console.Write(" -- Enter Password: ");
                 password = Console.ReadLine();
-                if (listaSoUsernames[0] == "Admin" && listaSoPasswords[0] == "Ad#mi8$s@")
+                if (username == listaSoUsernames[0] && password == listaSoPasswords[0])
                 {
                     Console.WriteLine("Welcome Administrator,");
                     Console.WriteLine(" --- for List of all Users press 1 ");
                     Console.WriteLine(" --- to Delete User press 2 ");
-                    
+
                     userChoise = Console.ReadLine();
                     validUserNumberChoise = int.TryParse(userChoise, out validUserChoise);
                     if (validUserNumberChoise && validUserChoise == 1)
@@ -42,20 +42,20 @@ namespace LoginRegister
 
                         for (int i = 0; i < listaSoUsernames.Length; i++)
                         {
-                            Console.WriteLine(listaSoUsernames[i]);
+                            Console.WriteLine("-- {0}",listaSoUsernames[i]);
                         }
 
                     }
                     else if (validUserNumberChoise && validUserChoise == 2)
                     {
-                        
+
                         for (int i = 0; i < listaSoUsernames.Length; i++)
                         {
-                            Console.WriteLine(listaSoUsernames[i]);
+                            Console.WriteLine("-- {0}", listaSoUsernames[i]);
                         }
                         Console.WriteLine();
                         Console.Write("Select a user to delete: ");
-                        
+
                         string deleteUser = Console.ReadLine();
                         int userIndex = 0;
 
@@ -65,18 +65,45 @@ namespace LoginRegister
                         }
                         else if (deleteUser != "Admin")
                         {
-                            for (int i = 0; i < listaSoUsernames.Length; i++)
+                            //for (int i = 0; i < listaSoUsernames.Length; i++)
+                            //{
+                            //    if (listaSoUsernames[i] == deleteUser)
+                            //    {
+                            //        userIndex = i;
+                            //    }
+                            //}
+                            //Console.WriteLine(userIndex);
+                            if (userIndex != 0)
                             {
-                                if (listaSoUsernames[i] == deleteUser)
+                                listaSoUsernames = Array.FindAll(listaSoUsernames, (user) 
+                                    => Array.IndexOf(listaSoUsernames, user) != userIndex);
+
+                                listaSoPasswords = Array.FindAll(listaSoPasswords, (user)
+                                    => Array.IndexOf(listaSoPasswords, user) != userIndex);
+
+                                Console.WriteLine("User was successfully deleted. Following users remaining:");
+                                foreach (var user in listaSoUsernames)
                                 {
-                                    userIndex = i;
+                                    Console.WriteLine($"--- {user}");
                                 }
+
+                                Console.WriteLine("Password was successfully deleted. Following passwords remaining:");
+                                foreach (var user in listaSoPasswords)
+                                {
+                                    Console.WriteLine($"--- {user}");
+                                }
+
                             }
-                            Console.WriteLine(userIndex);
-                            // kako da delitnam username od stringot so pomosh na index brojot
+                            else
+                            {
+                                Console.WriteLine("Please enter valid user to delete");
+                            }
+
+
+
                         }
 
-                      
+
 
                     }
                 }
@@ -92,8 +119,33 @@ namespace LoginRegister
                 Console.Write("Enter new  Password: ");
                 newPassword = Console.ReadLine();
 
+                string vnesenNovUsername;
+                vnesenNovUsername = newUsername;
+                int dodajKocka = listaSoUsernames.Length + 1;
+                int vnesiVoKocka = listaSoUsernames.Length;
 
+                Console.WriteLine($"You have added <{vnesenNovUsername}> to the list of names");
+                Array.Resize(ref listaSoUsernames, dodajKocka);
+                listaSoUsernames[vnesiVoKocka] = vnesenNovUsername;
 
+                string vnesenNovPassword;
+                vnesenNovPassword = newPassword;
+                int dodajKocka1 = listaSoPasswords.Length + 1;
+                int vnesiVoKocka1 = listaSoPasswords.Length;
+
+                Console.WriteLine($"You have added <{vnesenNovPassword}> to the list of Passwords");
+                Array.Resize(ref listaSoPasswords, dodajKocka1);
+                listaSoPasswords[vnesiVoKocka1] = vnesenNovPassword;
+
+                foreach (var user in listaSoUsernames)
+                {
+                    Console.WriteLine($"--- {user}");
+                }
+                Console.WriteLine("Passwords: ");
+                foreach (var pass in listaSoPasswords)
+                {
+                    Console.WriteLine($"-- {pass}");
+                }
             }
             else
             {
