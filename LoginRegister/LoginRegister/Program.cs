@@ -19,9 +19,6 @@ namespace LoginRegister
             string[] listaSoUsernames = new string[3] { "Admin", "Dime", "Jasmina" };
             string[] listaSoPasswords = new string[3] { "1a", "kastro", "jasmin" };
 
-            //Console.WriteLine(listaSoUsernames[0]);
-
-
             if (validUserNumberChoise && validUserChoise == 1)
             {
                 Console.WriteLine("Welcome Old User, Pls enter Username And Password");
@@ -64,15 +61,7 @@ namespace LoginRegister
                             Console.WriteLine(" U CANNOT DELETE ADMIN !! ");
                         }
                         else if (deleteUser != "Admin")
-                        {
-                            //for (int i = 0; i < listaSoUsernames.Length; i++)
-                            //{
-                            //    if (listaSoUsernames[i] == deleteUser)
-                            //    {
-                            //        userIndex = i;
-                            //    }
-                            //}
-                            //Console.WriteLine(userIndex);
+                        {                     
                             if (userIndex != 0)
                             {
                                 listaSoUsernames = Array.FindAll(listaSoUsernames, (user) 
@@ -86,30 +75,19 @@ namespace LoginRegister
                                 {
                                     Console.WriteLine($"--- {user}");
                                 }
-
                                 Console.WriteLine("Password was successfully deleted. Following passwords remaining:");
                                 foreach (var user in listaSoPasswords)
                                 {
                                     Console.WriteLine($"--- {user}");
                                 }
-
                             }
                             else
                             {
                                 Console.WriteLine("Please enter valid user to delete");
                             }
-
-
-
                         }
-
-
-
                     }
                 }
-
-
-
             }
             else if (validUserNumberChoise && validUserChoise == 2)
             {
@@ -151,9 +129,6 @@ namespace LoginRegister
             {
                 Console.WriteLine("psl try 1 or 2");
             }
-
-
-
 
             Console.ReadLine();
         }
