@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Admin\\Documents\\GitHub\\DomashniCSharp\\RealCalculator\\RealCalculator\\RealCalculator.csproj": {}
+    "C:\\Users\\user\\Desktop\\DomashniCSharp\\RealCalculator\\RealCalculator\\RealCalculator.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Admin\\Documents\\GitHub\\DomashniCSharp\\RealCalculator\\RealCalculator\\RealCalculator.csproj": {
+    "C:\\Users\\user\\Desktop\\DomashniCSharp\\RealCalculator\\RealCalculator\\RealCalculator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\Documents\\GitHub\\DomashniCSharp\\RealCalculator\\RealCalculator\\RealCalculator.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\DomashniCSharp\\RealCalculator\\RealCalculator\\RealCalculator.csproj",
         "projectName": "RealCalculator",
-        "projectPath": "C:\\Users\\Admin\\Documents\\GitHub\\DomashniCSharp\\RealCalculator\\RealCalculator\\RealCalculator.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\Documents\\GitHub\\DomashniCSharp\\RealCalculator\\RealCalculator\\obj\\",
+        "projectPath": "C:\\Users\\user\\Desktop\\DomashniCSharp\\RealCalculator\\RealCalculator\\RealCalculator.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\DomashniCSharp\\RealCalculator\\RealCalculator\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -52,7 +52,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.102\\RuntimeIdentifierGraph.json"
         }
       }
     }

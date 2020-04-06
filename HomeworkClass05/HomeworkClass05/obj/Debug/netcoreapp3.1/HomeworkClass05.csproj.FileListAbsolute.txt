@@ -1,0 +1,11 @@
+C:\Users\user\Desktop\DomashniCSharp\HomeworkClass05\HomeworkClass05\bin\Debug\netcoreapp3.1\HomeworkClass05.exe
+C:\Users\user\Desktop\DomashniCSharp\HomeworkClass05\HomeworkClass05\bin\Debug\netcoreapp3.1\HomeworkClass05.deps.json
+C:\Users\user\Desktop\DomashniCSharp\HomeworkClass05\HomeworkClass05\bin\Debug\netcoreapp3.1\HomeworkClass05.runtimeconfig.json
+C:\Users\user\Desktop\DomashniCSharp\HomeworkClass05\HomeworkClass05\bin\Debug\netcoreapp3.1\HomeworkClass05.runtimeconfig.dev.json
+C:\Users\user\Desktop\DomashniCSharp\HomeworkClass05\HomeworkClass05\bin\Debug\netcoreapp3.1\HomeworkClass05.dll
+C:\Users\user\Desktop\DomashniCSharp\HomeworkClass05\HomeworkClass05\bin\Debug\netcoreapp3.1\HomeworkClass05.pdb
+C:\Users\user\Desktop\DomashniCSharp\HomeworkClass05\HomeworkClass05\obj\Debug\netcoreapp3.1\HomeworkClass05.csprojAssemblyReference.cache
+C:\Users\user\Desktop\DomashniCSharp\HomeworkClass05\HomeworkClass05\obj\Debug\netcoreapp3.1\HomeworkClass05.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\DomashniCSharp\HomeworkClass05\HomeworkClass05\obj\Debug\netcoreapp3.1\HomeworkClass05.AssemblyInfo.cs
+C:\Users\user\Desktop\DomashniCSharp\HomeworkClass05\HomeworkClass05\obj\Debug\netcoreapp3.1\HomeworkClass05.dll
+C:\Users\user\Desktop\DomashniCSharp\HomeworkClass05\HomeworkClass05\obj\Debug\netcoreapp3.1\HomeworkClass05.pdb
